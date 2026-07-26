@@ -1,9 +1,15 @@
 # Local .terraform directories
 .terraform/
 .gitleaks.toml
-.terraform.lock.hcl
-.gitleaks-report.json
-.infracost-report.html
+
+
+# Gitleaks
+.gitleaks.toml
+gitleaks-report.json
+
+# Infracost
+infracost-report.html
+infracost.json
 
 # .tfstate files
 *.tfstate
