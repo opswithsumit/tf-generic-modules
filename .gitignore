@@ -8,6 +8,11 @@
 # Terraform reports
 gitleaks-report.json
 infracost-report.html
+.gitleaks.toml
+
+# Gitleaks config
+.gitleaks.toml
+gitleaks-report.json
 
 # Sensitive files
 terraform.tfvars
