@@ -1,0 +1,14 @@
+title = "Custom Terraform Secret Detection"
+
+[[rules]]
+id = "terraform-hardcoded-password"
+
+description = "Detect hardcoded passwords in Terraform files"
+
+regex = '''(?i)(password|passwd|admin_password|sql_password|client_secret)\s*=\s*"[^"]+"'''
+
+tags = [
+  "terraform",
+  "password",
+  "secret"
+]
