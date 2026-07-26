@@ -14,8 +14,7 @@ infracost-report.html
 .gitleaks.toml
 gitleaks-report.json
 
-# Sensitive files
-terraform.tfvars
+
 
 # IDE
 .vscode/
