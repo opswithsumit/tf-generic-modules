@@ -2,8 +2,8 @@
 .terraform/
 .gitleaks.toml
 .terraform.lock.hcl
-gitleaks-report.json
-infracost-report.html
+.gitleaks-report.json
+.infracost-report.html
 
 # .tfstate files
 *.tfstate
