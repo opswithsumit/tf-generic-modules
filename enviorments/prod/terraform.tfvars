@@ -3,6 +3,14 @@ rg-prod = {
     name     = "rg-demo-prod"
     location = "Central India"
   }
+  rg2 = {
+    name     = "rg-test-prod"
+    location = "Central India"
+  }
+  rg3 = {
+    name     = "rg-sm-prod"
+    location = "Central Inida"
+  }
 }
 
 vnet-prod = {
@@ -73,7 +81,7 @@ vmss = {
     admin_password = "sumit@1234567"
     nic_name       = "fe-nic"
   }
- vm2 = {
+  vm2 = {
     vm_name        = "be-linux-vm"
     rg_name        = "rg-demo-prod"
     location       = "Central India"
