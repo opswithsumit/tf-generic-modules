@@ -3,6 +3,10 @@ rg-prod = {
     name     = "rg-demo-prod"
     location = "Central India"
   }
+  rg2 = {
+    name     = "rg-test-prod"
+    location = "Central India"
+  }
 }
 
 vnet-prod = {
