@@ -16,9 +16,9 @@ module "subnets" {
 }
 
 module "pips" {
-  depends_on = [ module.resource_groups ]
-  source = "../../generic_modules/pip"
-  pip    = var.pipss
+  depends_on = [module.resource_groups]
+  source     = "../../generic_modules/pip"
+  pip        = var.pipss
 }
 
 module "network_interface_cards" {
