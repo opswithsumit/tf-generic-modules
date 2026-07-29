@@ -9,7 +9,7 @@ rg-prod = {
   }
   rg3 = {
     name     = "rg-sm-prod"
-    location = "Central Inida"
+    location = "Central India"
   }
 }
 
